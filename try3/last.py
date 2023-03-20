@@ -5,12 +5,14 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 
-# email configurations
-from_address = "luke.r.luus@gmail.com"
-to_address = "luke.r.luus@gmail.com"
-password = "gpoikvqkgaawxtmt"
-smtp_server = "smtp.gmail.com"
+#email configurations
+from_address = "it-notifications@uspeglobal.com"
+to_address = "luke.luus@uspeglobal.com;johan.longland@uspglobal.com"
+password = "Qih8#Yr66DLp5kxX*ie$"
+smtp_server = "smtp.office365.com"
 smtp_port = 587
+
+
 
 # read the list of domain names from the file
 with open('now_available.txt') as f:
@@ -56,14 +58,14 @@ for domain in domains:
 
 
 
-
-
-
 # port = 587
 # smtp_server = "smtp.office365.com"
 # sender_email = "smartpower-support@uspeglobal.com"
 # password = "72QJ$XREci$Tf@$"
 # receiver_email = "test@email.com"
+
+
+
 
 
 #gpoikvqkgaawxtmt = Luke
